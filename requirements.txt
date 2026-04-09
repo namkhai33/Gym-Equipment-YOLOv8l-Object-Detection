@@ -1,4 +1,4 @@
-# Dependencies for YOLOv8 Gym Equipment Detection Project
+
 ultralytics>=8.0.0
 torch>=2.0.0
 torchvision>=0.15.0
@@ -9,7 +9,3 @@ pyyaml>=5.3.1
 matplotlib>=3.3.0
 scipy>=1.4.1
 psutil>=5.8.0
-
-# Optional for enhanced performance
-# tensorboard  # For training visualization
-# wandb        # For experiment tracking
