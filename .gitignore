@@ -1,0 +1,44 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset images (too large for GitHub - host on Roboflow/Google Drive)
+train/images/
+valid/images/
+test/images/
+
+# All training runs EXCEPT best weights and results
+runs/detect/*/weights/last.pt
+runs/detect/*/weights/epoch*.pt
+runs/detect/*/cache/
+runs/detect/*/*.cache
+
+# Keep these from runs:
+# runs/detect/train8/weights/best.pt  <-- keep
+# runs/detect/train8/results.csv      <-- keep
+# runs/detect/train8/results.png      <-- keep
+
+# Large model files (downloaded automatically by ultralytics)
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Assisted Pull Up and Dip Machine', 'Exercise Balls', 'Kettlebell', 'Tricep Dip Station']
+
+roboflow:
+  workspace: public-workspace-j4gzu
+  project: gym-equipment
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/public-workspace-j4gzu/gym-equipment/dataset/1
