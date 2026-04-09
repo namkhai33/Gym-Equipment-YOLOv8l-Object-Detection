@@ -2,16 +2,25 @@ This project trains a YOLOv8 model to detect gym equipment in images using custo
 
 Project Structure
 ├── train-part.py
+
 ├── data.yaml
+
 ├── requirements.txt
+
 ├── setup_gpu.bat
+
 ├── test/
+
 │   ├── images/
 │   └── labels/
+
 ├── train/
+
 │   ├── images/
 │   └── labels/
+
 ├── valid/
+
 │   ├── images/
 │   └── labels/
 
